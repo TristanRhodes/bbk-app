@@ -20,7 +20,8 @@ namespace WebApi.Controllers
                 new Basket("Basket 1"),
                 new Basket("Basket 2"),
                 new Basket("Basket 3"),
-                new Basket("Basket 4") };
+                new Basket("Basket 4"),
+                new Basket("CD Test Basket") };
         }
 
         // GET: api/baskets
