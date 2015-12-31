@@ -1401,15 +1401,6 @@
           "lib/net45/Newtonsoft.Json.dll": {}
         }
       },
-      "Shouldly/2.6.0": {
-        "type": "package",
-        "compile": {
-          "lib/net40/Shouldly.dll": {}
-        },
-        "runtime": {
-          "lib/net40/Shouldly.dll": {}
-        }
-      },
       "System.Collections/4.0.0": {
         "type": "package",
         "compile": {
@@ -5553,15 +5544,6 @@
           "lib/net45/Newtonsoft.Json.dll": {}
         }
       },
-      "Shouldly/2.6.0": {
-        "type": "package",
-        "compile": {
-          "lib/net40/Shouldly.dll": {}
-        },
-        "runtime": {
-          "lib/net40/Shouldly.dll": {}
-        }
-      },
       "System.Collections/4.0.0": {
         "type": "package",
         "compile": {
@@ -7283,15 +7265,6 @@
         },
         "runtime": {
           "lib/net45/Newtonsoft.Json.dll": {}
-        }
-      },
-      "Shouldly/2.6.0": {
-        "type": "package",
-        "compile": {
-          "lib/net40/Shouldly.dll": {}
-        },
-        "runtime": {
-          "lib/net40/Shouldly.dll": {}
         }
       },
       "System.Collections/4.0.0": {
@@ -14817,17 +14790,6 @@
         "runtimes/win8-aot/lib/netcore50/System.Threading.dll"
       ]
     },
-    "Shouldly/2.6.0": {
-      "type": "package",
-      "sha512": "KC9pqgBvAYbcs8YUoonxfrmIEUSbKGu4dfk2V7NMNGW7PwFONCD/+E6FvZ/wyAPSu9Lcs7DPiOLyaJ79I4LXKQ==",
-      "files": [
-        "lib/net35/Shouldly.dll",
-        "lib/net40/Shouldly.dll",
-        "Shouldly.2.6.0.nupkg",
-        "Shouldly.2.6.0.nupkg.sha512",
-        "Shouldly.nuspec"
-      ]
-    },
     "System.AppContext/4.0.0": {
       "type": "package",
       "serviceable": true,
@@ -18690,9 +18652,7 @@
       "xunit >= 2.1.0",
       "xunit.runner.dnx >= 2.1.0-rc1-build204"
     ],
-    "DNX,Version=v4.5.1": [
-      "Shouldly >= 2.6.0"
-    ],
+    "DNX,Version=v4.5.1": [],
     "DNXCore,Version=v5.0": [
       "Microsoft.CSharp >= 4.0.1-beta-23516",
       "System.Collections >= 4.0.11-beta-23516",

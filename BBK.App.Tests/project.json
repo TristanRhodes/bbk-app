@@ -19,7 +19,6 @@
     "frameworks": {
       "dnx451": {
         "dependencies": {
-          "Shouldly": "2.6.0"
         }
       },
         "dnxcore50": {
