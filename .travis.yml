@@ -1,3 +1,11 @@
 language: csharp
 solution: BBK.App.sln
-script:    # the following commands are just examples, use whatever your build process requires
+mono:
+  - latest
+install:
+  - curl -sSL https://raw.githubusercontent.com/aspnet/Home/dev/dnvminstall.sh | DNX_BRANCH=dev sh && source ~/.dnx/dnvm/dnvm.sh
+  - dnvm upgrade
+  - dnu restore
+script:
+  - dnu build ./test/DivineChMS.Test/project.json
+  - dnx -p ./test/DivineChMS.Test test
