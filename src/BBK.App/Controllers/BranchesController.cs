@@ -13,7 +13,7 @@ namespace WebApi.Controllers
     {
         // GET: api/core/branches
         [HttpGet("branches")]
-        public IEnumerable<string> Get()
+        public IEnumerable<string> GetAllBranches()
         {
             return new string[] { "Balham", "Elephant and Castle" };
         }
