@@ -1,5 +1,5 @@
-## bbk-app
-Small app to help the Balham Breakfast Kitchen track orders.
+## Balham Breakfast Kitchen App
+Small app to help the Balham Breakfast Kitchen track orders to better buffer buttered bacon backlog. (Mmmmm... bacon....)
 
 ## Setup
 Written in Asp .Net 5 and modeled on the project ![AspNet5DemoApp](https://github.com/jincod/AspNet5DemoApp) by ![Vadim Abdrashitov](https://github.com/jincod)
