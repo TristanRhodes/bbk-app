@@ -7,5 +7,5 @@ install:
   - dnvm upgrade
   - dnu restore
 script:
-  - dnu build ./test/DivineChMS.Test/project.json
-  - dnx -p ./test/DivineChMS.Test test
+  - dnu build ./BBK.App.Tests/project.json
+  - dnx -p ./BBK.App.Tests test
