@@ -1,0 +1,11 @@
+{
+  "name": "bbk-app",
+  "description": "Balham Breakfast Kitchen App",
+  "repository": "https://github.com/TristanRhodes/bbk-app",
+  "keywords": ["aspnet5", "vnext"],
+  "buildpacks": [
+    {
+      "url": "https://github.com/jincod/dotnet-buildpack"
+    }
+  ]
+}
