@@ -20,7 +20,7 @@
   },
 
  "scripts": {
-      "postrestore": ["cd ../.. && npm i && cd src/AspNet5DemoApp"]
+      "postrestore": ["cd ../.. && npm i && cd src/BBK.App"]
   },
   "frameworks": {
     "dnx451": { },
