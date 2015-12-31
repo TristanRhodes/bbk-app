@@ -1,10 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using System.Linq;
 using WebApi.Controllers;
 using Xunit;
-using Shouldly;
 
 namespace BBK.App.Tests.Controllers
 {
@@ -20,14 +16,14 @@ namespace BBK.App.Tests.Controllers
         }
 
         [Fact]
-        public void UniTest1()
+        public void GetBranches()
         {
             var branches = _branchesController
                 .GetAllBranches()
                 .ToList();
 
-            branches[0].ShouldBe("Balham");
-            branches[1].ShouldBe("Elephant and Castle");
+            Assert.Equal(branches[0], "Balham");
+            Assert.Equal(branches[1], "Elephant and Castle");
         }
     }
 }
