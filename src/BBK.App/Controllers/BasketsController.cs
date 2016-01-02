@@ -4,8 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNet.Mvc;
 using WebApi.Models;
-
-// For more information on enabling Web API for empty projects, visit http://go.microsoft.com/fwlink/?LinkID=397860
+using BBK.App.DataAccess;
 
 namespace WebApi.Controllers
 {
@@ -14,7 +13,7 @@ namespace WebApi.Controllers
     {
         // GET: api/baskets
         [HttpGet]
-        public IEnumerable<Basket> GetAllBasket()
+        public IEnumerable<Basket> GetBaskets()
         {
             return new Basket[] {
                 new Basket("Basket 1"),
