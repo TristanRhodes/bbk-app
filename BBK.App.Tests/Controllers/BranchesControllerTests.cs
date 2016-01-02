@@ -1,11 +1,11 @@
-﻿using System.Linq;
+﻿using BBK.App.DataAccess;
+using System.Linq;
 using WebApi.Controllers;
 using Xunit;
+using System;
 
 namespace BBK.App.Tests.Controllers
 {
-    // This project can output the Class library as a NuGet Package.
-    // To enable this option, right-click on the project and select the Properties menu item. In the Build tab select "Produce outputs on build".
     public class BranchesControllerTests
     {
         private BranchesController _branchesController;
