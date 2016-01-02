@@ -18,6 +18,15 @@
           "Microsoft.Extensions.Logging.Debug": "1.0.0-rc1-final"
         }
       },
+      "LightMock/1.0.0.5": {
+        "type": "package",
+        "compile": {
+          "lib/portable-net40+sl50+win+wp80/LightMock.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net40+sl50+win+wp80/LightMock.dll": {}
+        }
+      },
       "Microsoft.AspNet.Antiforgery/1.0.0-rc1-final": {
         "type": "package",
         "dependencies": {
@@ -1736,6 +1745,25 @@
           "Microsoft.Extensions.Logging": "1.0.0-rc1-final",
           "Microsoft.Extensions.Logging.Console": "1.0.0-rc1-final",
           "Microsoft.Extensions.Logging.Debug": "1.0.0-rc1-final"
+        }
+      },
+      "LightMock.vNext/1.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.CSharp": "4.0.0-beta-22816",
+          "System.Collections": "4.0.10-beta-22816",
+          "System.Globalization": "4.0.10-beta-22816",
+          "System.Linq": "4.0.0-beta-22816",
+          "System.Reflection": "4.0.10-beta-22816",
+          "System.Reflection.TypeExtensions": "4.0.0-beta-22816",
+          "System.Runtime.Extensions": "4.0.10-beta-22816",
+          "System.Threading": "4.0.10-beta-22816"
+        },
+        "compile": {
+          "lib/dnxcore50/LightMock.vNext.dll": {}
+        },
+        "runtime": {
+          "lib/dnxcore50/LightMock.vNext.dll": {}
         }
       },
       "Microsoft.AspNet.Antiforgery/1.0.0-rc1-final": {
@@ -4158,6 +4186,15 @@
           "Microsoft.Extensions.Logging.Debug": "1.0.0-rc1-final"
         }
       },
+      "LightMock/1.0.0.5": {
+        "type": "package",
+        "compile": {
+          "lib/portable-net40+sl50+win+wp80/LightMock.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net40+sl50+win+wp80/LightMock.dll": {}
+        }
+      },
       "Microsoft.AspNet.Antiforgery/1.0.0-rc1-final": {
         "type": "package",
         "dependencies": {
@@ -5881,6 +5918,15 @@
           "Microsoft.Extensions.Logging.Debug": "1.0.0-rc1-final"
         }
       },
+      "LightMock/1.0.0.5": {
+        "type": "package",
+        "compile": {
+          "lib/portable-net40+sl50+win+wp80/LightMock.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net40+sl50+win+wp80/LightMock.dll": {}
+        }
+      },
       "Microsoft.AspNet.Antiforgery/1.0.0-rc1-final": {
         "type": "package",
         "dependencies": {
@@ -7602,6 +7648,25 @@
           "Microsoft.Extensions.Logging": "1.0.0-rc1-final",
           "Microsoft.Extensions.Logging.Console": "1.0.0-rc1-final",
           "Microsoft.Extensions.Logging.Debug": "1.0.0-rc1-final"
+        }
+      },
+      "LightMock.vNext/1.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.CSharp": "4.0.0-beta-22816",
+          "System.Collections": "4.0.10-beta-22816",
+          "System.Globalization": "4.0.10-beta-22816",
+          "System.Linq": "4.0.0-beta-22816",
+          "System.Reflection": "4.0.10-beta-22816",
+          "System.Reflection.TypeExtensions": "4.0.0-beta-22816",
+          "System.Runtime.Extensions": "4.0.10-beta-22816",
+          "System.Threading": "4.0.10-beta-22816"
+        },
+        "compile": {
+          "lib/dnxcore50/LightMock.vNext.dll": {}
+        },
+        "runtime": {
+          "lib/dnxcore50/LightMock.vNext.dll": {}
         }
       },
       "Microsoft.AspNet.Antiforgery/1.0.0-rc1-final": {
@@ -10482,6 +10547,25 @@
           "Microsoft.Extensions.Logging.Debug": "1.0.0-rc1-final"
         }
       },
+      "LightMock.vNext/1.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.CSharp": "4.0.0-beta-22816",
+          "System.Collections": "4.0.10-beta-22816",
+          "System.Globalization": "4.0.10-beta-22816",
+          "System.Linq": "4.0.0-beta-22816",
+          "System.Reflection": "4.0.10-beta-22816",
+          "System.Reflection.TypeExtensions": "4.0.0-beta-22816",
+          "System.Runtime.Extensions": "4.0.10-beta-22816",
+          "System.Threading": "4.0.10-beta-22816"
+        },
+        "compile": {
+          "lib/dnxcore50/LightMock.vNext.dll": {}
+        },
+        "runtime": {
+          "lib/dnxcore50/LightMock.vNext.dll": {}
+        }
+      },
       "Microsoft.AspNet.Antiforgery/1.0.0-rc1-final": {
         "type": "package",
         "dependencies": {
@@ -13349,6 +13433,32 @@
     "BBK.App/1.0.0": {
       "type": "project",
       "path": "../src/BBK.App/project.json"
+    },
+    "LightMock/1.0.0.5": {
+      "type": "package",
+      "sha512": "01IrxzE4dbshowiaYhBTNzX9bNtw+VhD3otgcIEaxWrGBQ8AJX4+jPVA3++INEwAOwH2JRno8AXXDlmejgoOnw==",
+      "files": [
+        "lib/portable-net4+sl5+netcore45+wp8+MonoAndroid1+MonoTouch1/LightMock.dll",
+        "lib/portable-net4+sl5+netcore45+wp8+MonoAndroid1+MonoTouch1/LightMock.XML",
+        "lib/portable-net40+sl50+win+wp80/LightMock.dll",
+        "lib/portable-net40+sl50+win+wp80/LightMock.XML",
+        "LightMock.1.0.0.5.nupkg",
+        "LightMock.1.0.0.5.nupkg.sha512",
+        "LightMock.nuspec"
+      ]
+    },
+    "LightMock.vNext/1.0.1": {
+      "type": "package",
+      "sha512": "eSX7nl59I+zrg8cBdSokHd1pMuMN20IZNTpo6wI7vdJvefU0hhPYjHbU7PQ/VU4e4d3SF/x8wsTe9HRX1BYOmA==",
+      "files": [
+        "lib/dnx451/LightMock.vNext.dll",
+        "lib/dnx451/LightMock.vNext.xml",
+        "lib/dnxcore50/LightMock.vNext.dll",
+        "lib/dnxcore50/LightMock.vNext.xml",
+        "LightMock.vNext.1.0.1.nupkg",
+        "LightMock.vNext.1.0.1.nupkg.sha512",
+        "LightMock.vNext.nuspec"
+      ]
     },
     "Microsoft.AspNet.Antiforgery/1.0.0-rc1-final": {
       "type": "package",
@@ -18652,8 +18762,11 @@
       "xunit >= 2.1.0",
       "xunit.runner.dnx >= 2.1.0-rc1-build204"
     ],
-    "DNX,Version=v4.5.1": [],
+    "DNX,Version=v4.5.1": [
+      "LightMock >= 1.0.0.5"
+    ],
     "DNXCore,Version=v5.0": [
+      "LightMock.vNext >= 1.0.1",
       "Microsoft.CSharp >= 4.0.1-beta-23516",
       "System.Collections >= 4.0.11-beta-23516",
       "System.Linq >= 4.0.1-beta-23516",

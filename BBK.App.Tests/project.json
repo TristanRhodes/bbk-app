@@ -19,10 +19,12 @@
     "frameworks": {
       "dnx451": {
         "dependencies": {
+          "LightMock": "1.0.0.5"
         }
       },
         "dnxcore50": {
           "dependencies": {
+            "LightMock.vNext": "1.0.1",
             "Microsoft.CSharp": "4.0.1-beta-23516",
             "System.Collections": "4.0.11-beta-23516",
             "System.Linq": "4.0.1-beta-23516",
