@@ -12,12 +12,8 @@ namespace BBK.App.Tests.Mocks
     /// </summary>
     public static class MockContextExtensions
     {
-        private static Dictionary<object, WeakReference<object>> _references = new Dictionary<Type, WeakReference<object>>();
-
-
         public static IBasicDataAccess CreateInstance(this MockContext<IBasicDataAccess> context)
         {
-            _references
             return new MockIBasicDataAccess(context);
         }
     }
