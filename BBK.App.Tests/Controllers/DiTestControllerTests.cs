@@ -1,4 +1,5 @@
 ﻿using BBK.App.DataAccess;
+using BBK.App.Tests.Mocks;
 using LightMock;
 using WebApi.Controllers;
 using Xunit;
@@ -12,9 +13,8 @@ namespace BBK.App.Tests.Controllers
 
         public DiTestControllerTests()
         {
-            _mockContext = new LightMock.MockContext<IBasicDataAccess>();
-            var mock = new BasicDataAccessMock(_mockContext);
-            _branchesController = new DiTestController(mock);
+            _mockContext = new MockContext<IBasicDataAccess>();
+            _branchesController = new DiTestController(_mockContext.CreateInstance());
         }
 
         [Fact]
@@ -29,21 +29,6 @@ namespace BBK.App.Tests.Controllers
             _branchesController.EchoMessage(message);
 
             _mockContext.Assert(f => f.EchoMessage(message));
-        }
-    }
-
-    public class BasicDataAccessMock : IBasicDataAccess
-    {
-        private IInvocationContext<IBasicDataAccess> _mockContext;
-
-        public BasicDataAccessMock(IInvocationContext<IBasicDataAccess> mockContext)
-        {
-            _mockContext = mockContext;
-        }
-
-        public string EchoMessage(string message)
-        {
-            return _mockContext.Invoke(c => c.EchoMessage(message));
         }
     }
 }
