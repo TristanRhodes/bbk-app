@@ -12,6 +12,7 @@ namespace BBK.App.Controllers
         [HttpGet("server-status")]
         public ServerStatusMessage ServerStatus()
         {
+            Response.ContentLength = 16;
             return new ServerStatusMessage("OK");
         }
     }
