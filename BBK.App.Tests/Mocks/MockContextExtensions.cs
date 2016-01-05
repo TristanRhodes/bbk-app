@@ -12,9 +12,26 @@ namespace BBK.App.Tests.Mocks
     /// </summary>
     public static class MockContextExtensions
     {
-        public static IBasicDataAccess CreateInstance(this MockContext<IBasicDataAccess> context)
+        private static IReadOnlyDictionary<Type, Func<object, object>> _collection ;
+
+        static MockContextExtensions()
         {
-            return new MockIBasicDataAccess(context);
+            var collection = new Dictionary<Type, Func<object, object>>();
+
+            // NOTE: Bootstrap instance constructors here.
+            collection.Add(typeof(IBasicDataAccess), (context) => new MockIBasicDataAccess((MockContext<IBasicDataAccess>)context));
+
+           _collection = collection;
+        }
+
+        public static T CreateInstance<T>(this MockContext<T> context)
+        {
+            var type = typeof(T);
+
+            if (!_collection.ContainsKey(type))
+                throw new ArgumentException("Context not handled");
+
+            return (T)_collection[type](context);
         }
     }
 }
