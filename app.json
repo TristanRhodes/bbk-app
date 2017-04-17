@@ -5,7 +5,7 @@
   "keywords": ["aspnet5", "vnext"],
   "buildpacks": [
     {
-      "url": "https://github.com/jincod/dotnet-buildpack"
+      "url": "https://github.com/heroku/dotnet-buildpack"
     }
   ]
 }
